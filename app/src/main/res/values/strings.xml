@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">homework1</string>
+    <string name="pressButton">Нажми меня</string>
+    <string name="returnNull">Вернулся налл</string>
+    <string name="start_service">Старт сервиса</string>
+</resources>
