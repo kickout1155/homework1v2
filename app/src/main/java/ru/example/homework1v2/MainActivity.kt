@@ -30,6 +30,6 @@ class MainActivity : AppCompatActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         //тут нужна проверка на resultcode но у нас 1 активти, поэтому обойдусь
-        some_text.setText(data?.getStringExtra("test")?:getString(R.string.returnNull))
+        some_text.setText(data?.extras?.getString("test")?:getString(R.string.returnNull))
     }
 }

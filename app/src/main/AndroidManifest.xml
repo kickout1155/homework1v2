@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
 <activity android:name="ru.example.homework1.SecondActivity"></activity>
+        <service android:name="ru.example.homework1.SomeIntentService"></service>
+
     </application>
 
 </manifest>

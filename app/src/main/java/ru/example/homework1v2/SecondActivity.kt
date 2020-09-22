@@ -54,6 +54,7 @@ class SecondActivity: AppCompatActivity() {
 
     private fun closeActivity(intent: Intent?){
         setResult(Activity.RESULT_OK,intent)
+        finish()
     }
 
 
